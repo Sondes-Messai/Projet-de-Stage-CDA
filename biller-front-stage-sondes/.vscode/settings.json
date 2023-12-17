@@ -1,0 +1,5 @@
+{
+  "i18n-ally.localesPaths": ["public/locales"],
+  "i18n-ally.displayLanguage": "fr",
+  "i18next.i18nPaths": "c:/Users/Stagiaire/biller-front-stage/public/locales"
+}

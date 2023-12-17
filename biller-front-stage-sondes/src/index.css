@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/public/assets/logo.png");
+  background-position: 100% -175%;
+  background-repeat: no-repeat;
+  background-size: 80vh;
+  opacity: 0.2;
+}
+
+.app {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.app > div {
+  width: 100%;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+main {
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.future {
+  font-style: italic;
+  opacity: 0.5;
+}
+
+/*custom component*/
+svg.error,
+div.error > svg {
+  color: #d32f2f !important;
+  font-size: xx-large;
+}
+
+svg.info {
+  color: #0288d1 !important;
+  font-size: xx-large;
+}
+
+svg.success,
+div.success > svg {
+  color: #47a44b !important;
+  font-size: large;
+}
+
+div.success > svg,
+div.error > svg {
+  font-size: larger;
+}
+
+svg.draft {
+  color: #999 !important;
+  font-size: large;
+}
+
+.dot {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0.2rem;
+  margin-bottom: -0.2rem;
+}
+
+.MuiBox-root {
+  border-radius: 5px;
+}
+
+.MuiDataGrid-footerContainer {
+  border-radius: 0px 0px 5px 5px;
+}
+
+.fc table {
+  border-radius: 5px;
+}
+
+.fc table td {
+  background-color: var(--fc-page-bg-color);
+}
+
+.fc-event-past {
+  opacity: 50%;
+}
+
+.fc-col-header-cell {
+  background-color: var(--fc-button-bg-color);
+  color: var(--fc-page-bg-color);
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.fc .fc-daygrid-day.fc-day-today {
+  background-color: var(--fc-page-bg-color) !important;
+}
+
+.fc-col-header-cell.fc-day-today,
+.fc-day-today .fc-daygrid-day-number {
+  background-color: var(--fc-today-bg-color);
+  color: var(--fc-today-text-color);
+}
+
+.fc .fc-timegrid-now-indicator-line {
+  border-style: dashed !important;
+  border-top-width: 2px !important;
+}
+
+.event {
+  color: var(--fc-more-link-bg-color);
+}
+
+/** css for override tooltip in linear graph) */
+.tooltip {
+  background: white;
+  color: rgb(33, 33, 33);
+  font-size: inherit;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px;
+  padding: 5px 9px;
+}
+
+.tooltip > div {
+  background: inherit;
+  color: inherit;
+  font-size: inherit;
+  border-radius: 0;
+  box-shadow: none !important;
+  padding: 0px !important;
+}
+
+.tooltip > div > div > span,
+.tooltip div > span {
+  border-radius: 50%;
+}
+
+.MuiTooltip-tooltip {
+  box-shadow: rgb(0 0 0 / 10%) 0px 5px 5px -3px,
+    rgb(0 0 0 / 7%) 0px 8px 10px 1px, rgb(0 0 0 / 6%) 0px 3px 14px;
+}
+
+@media screen and (width<1100px) {
+  div:has(> .progress) {
+    position: relative;
+  }
+
+  .progress {
+    position: absolute;
+    left: 40px;
+  }
+
+  .progress svg {
+    width: 40px;
+    height: 0.5em;
+  }
+
+  .progress > div {
+    justify-items: start;
+  }
+
+  .progress h5 {
+    display: none;
+  }
+}
