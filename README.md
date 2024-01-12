@@ -1,10 +1,10 @@
+<img width="506" alt="Capture d’écran 2024-01-12 à 15 47 40" src="https://github.com/Sondes-Messai/Projet-de-Stage-CDA/assets/95591621/106ea95a-3795-4e35-9d43-44e7f0ebb097">
+
+**Titre : Amélioration de l'Application de Gestion de Micro-Entreprise** 🏢
 
 
-**Titre : Amélioration de l'Application de Gestion de Micro-Entreprise**
 
 
-
-![Capture d'écran](Capture%20d’écran%202024-01-12%20à%2015.47.40.png)
 
 
 
