@@ -2,7 +2,8 @@
 
 **Titre : Amélioration de l'Application de Gestion de Micro-Entreprise**
 
-![Uploading Capture d’écran 2024-01-12 à 15.46.20.png…]()
+![Nom de la capture d'écran](Capture%20d’écran%202024-01-12%20à%2015.47.40.png)
+
 
 
 J'ai  le plaisir de vous présenter notre projet de développement réalisé dans le cadre de notre stage de fin de formation en vue de l'obtention du titre de Concepteur Développeur d'Application. Notre initiative s'inscrit dans l'amélioration d'une application Web dédiée à la gestion complète des micro-entreprises. 
