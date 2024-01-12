@@ -2,7 +2,8 @@
 
 **Titre : Amélioration de l'Application de Gestion de Micro-Entreprise**
 
-![Nom de la capture d'écran](Capture%20d’écran%202024-01-12%20à%2015.47.40.png)
+
+<img width="535" alt="Capture d’écran 2024-01-12 à 15.47.40.png" src="https://github.com/https://github.com/Sondes-Messai/Projet-de-Stage-CDA/edit/main/README.md">
 
 
 
